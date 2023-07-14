@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Open sans";
+    src: url(fonts/OpenSans_Condensed-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: #020A18;
+    color: #FFFFFF;
+    font-family:'Open Sans', sans-serif;
+}
+
+.container{
+    margin-top: 160px;
+    position: relative;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.paragraph_center{
+    text-align: center;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff
+} 
+
+.about {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+  
+  
+
+.brain__list{
+    margin-bottom:256px ;
+}
+.brain__inner{
+    gap: 68px;
+}
+
+.brain__box__text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 484px;
+    height: 314px;
+    right:0;
+    margin-top: 117px;
+    margin-bottom:30px;
+}
+
+.brain__title{
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    margin-bottom: 30px;
+}
+
+.brain__text{
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    opacity: 0.699999988079071;
+    margin-bottom: 50px;
+}
+
+.button{
+    background-color: #3A68B8;
+    border: none;
+    margin: 5px;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight:600;
+}
+
+.button:hover {
+    background-color: #2b5192;
+}
+
+a {
+    text-decoration: none;
+}
+
+.photo__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;      
+}
+
+.photo__about{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+
+.about__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
